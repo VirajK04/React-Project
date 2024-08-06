@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.addBtn{
+    @apply bg-slate-500 hover:bg-slate-700 px-2 py-1 rounded-md mx-6 text-sm font-bold text-white
+}
+
+.button{
+    @apply bg-slate-500 hover:bg-slate-700 px-2 py-1 rounded-md mx-1 -mr-2 text-sm font-bold text-white
+}
+
+.seperator{
+    @apply flex justify-between
+}
